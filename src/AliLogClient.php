@@ -19,7 +19,6 @@ class AliLogClient extends AbstractProcessingHandler
     protected Aliyun_Log_Client $client ;
     protected $project;
     protected $logStore;
-
     public function __construct()
     {
         $this->client = new Aliyun_Log_Client(
