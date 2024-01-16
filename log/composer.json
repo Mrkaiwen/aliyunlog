@@ -1,6 +1,6 @@
 {
   "name": "xs_aliyun/log",
-  "description": "阿里日志测试",
+  "description": "阿里日志",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "alibabacloud/aliyun-log-php-sdk": "0.6.*"
+      "php": ">=7.4",
+      "alibabacloud/aliyun-log-php-sdk": "0.6.*"
   },
   "autoload": {
     "psr-4": { "xs_aliyun\\log\\": ["src/"] }
