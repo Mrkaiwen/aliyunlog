@@ -14,7 +14,7 @@
       "alibabacloud/aliyun-log-php-sdk": "0.6.*"
   },
   "autoload": {
-    "psr-4": { "xs_aliyun\\log\\": ["src/"] }
+    "psr-4": { "log\\": ["src/"] }
   },
   "config": {
     "preferred-install": "dist"
