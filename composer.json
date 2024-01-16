@@ -1,0 +1,22 @@
+{
+  "name": "xs_aliyun/log",
+  "description": "阿里日志",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "steven",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+      "php": ">=7.4",
+      "alibabacloud/aliyun-log-php-sdk": "0.6.*"
+  },
+  "autoload": {
+    "psr-4": { "xs_aliyun\\log\\": ["src/"] }
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
