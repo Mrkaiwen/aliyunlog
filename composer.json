@@ -1,7 +1,7 @@
 {
   "name": "xs_aliyun/log",
   "description": "阿里日志",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
